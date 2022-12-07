@@ -1,0 +1,49 @@
+header{
+	width: 100%;
+	text-align: center;
+	height: 80px;
+	font-weight: 400;
+	background-color: brown;
+	position: fixed;
+}
+header ul{
+	width: 80%;
+	margin: auto;
+}
+.item{
+	padding-top: 10px;
+	width: 13%;
+	display: inline-block;
+}
+.item a{
+	text-decoration: none;
+	color: white;
+}
+.item a:hover{
+	color: #06c;
+}
+#iconh{
+	width: 20px;
+}
+#label{
+	display: block;
+}
+
+
+footer{
+	border-top: 1px solid #3c3c3c;
+	width: 80%;
+	margin: 30px auto;
+}
+#foot{
+	color: #b9b9b9;
+	list-style: none;
+	float: left;
+	width: 29%;
+	padding: 2%;
+}
+#foot li p{
+	padding-top: 10px;
+	color: gray;
+	font-weight: 400;
+}
